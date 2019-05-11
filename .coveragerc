@@ -1,0 +1,5 @@
+[run]
+include = my_cookiecutter_django_project/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
